@@ -5,6 +5,7 @@ Apache Dubbo Rust SDK。为何要开发Rust SDK？
 * 为Rust应用提供访问Dubbo服务支持，而且还是异步化的
 * 为Rust WebAssembly提供访问Dubbo支持，通过WebSocket或WASI Socket访问Dubbo服务
 * 为Deno JavaScript/TypeScript提供访问Dubbo支持，通过Deno Dubbo Plugin支持
+* 为C语言提供访问Dubbo服务支持，通过Rust FFI导出cdylib库，提供给C语言调用
 
 # References
 
